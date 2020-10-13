@@ -1,0 +1,77 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+
+    @import url('https://rsms.me/inter/inter.css');
+
+    body {
+        @apply font-sans text-xl antialiased text-darkish;
+    }
+
+    h1 {
+        @apply font-bold;
+    }
+
+}
+
+@layer components {
+
+    .smallButton {
+        @apply py-1 px-2 font-semibold text-base border border-gray-400 text-gray-700 rounded-lg ;
+    }
+
+    .smallButton:hover {
+        @apply bg-gray-400;
+    }
+
+    .landingHeader {
+        @apply mb-12 text-2xl font-semibold;
+    }
+
+    .formField {
+        @apply appearance-none border border-gray-300 rounded w-full mt-2 py-2 px-3 text-gray-700 leading-tight; 
+    }
+    .formField:focus {
+        @apply outline-none shadow-outline;
+    }
+    .formName {
+        @apply text-base mt-6 font-semibold ;
+    }
+    .tags {
+        @apply  py-1 px-3 mt-4 mr-0 flex-shrink-0 bg-white border border-gray-300 rounded-lg text-sm font-semibold text-gray-700;
+    }
+    .summaryCard {
+        @apply p-8 bg-gradient-to-br from-gray-200 to-gray-100 rounded-lg border border-gray-300;
+    }
+
+    .markdown h1 {
+        @apply my-4 text-2xl font-semibold;
+    }
+
+    .markdown hr {
+        @apply my-4;
+    }
+
+    .markdown h2, h3, h4, h5, h6 {
+        @apply my-4 text-xl font-semibold;
+    }
+
+    .markdown .gatsby-resp-image-image {
+        @apply rounded-lg border border-gray-300;
+    }
+
+    .markdown figcaption {
+        @apply max-w-screen-sm mx-auto text-center text-base mt-4;
+    }
+
+    @screen md {
+        .tags {
+            @apply mr-4
+        }
+    }
+}
+

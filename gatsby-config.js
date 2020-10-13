@@ -1,22 +1,43 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Korhan Eser`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Korhan Eser`,
+      summary: `Portfolio of a digital product designer.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `This is the meta data description`,
+    siteUrl: `https://www.korhaneser.com`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `korhan`,
     },
   },
   plugins: [
+     `gatsby-plugin-postcss`,
+    {
+      resolve: `gatsby-source-instagram`,
+      options: {
+        username: `8739417`,
+      },
+    },
+    {
+      resolve: `gatsby-source-dribbble`,
+      options: {
+        // You can get your Access Token by following this tutorial: http://developer.dribbble.com/v2/oauth/
+        access_token: '80e2d05d8ce920e5c6ab743c22499080d51a19c428666c5900dc54baf7d16ad6'
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
+        path: `${__dirname}/content/stories`,
+        name: `story`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/projects`,
+        name: `projects`,
       },
     },
     {
@@ -33,21 +54,35 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 630,
+              showCaptions: true,
+              linkImagesToOriginal: false,
+              maxWidth: 1200,
+              quality: 100,
+              wrapperStyle: `margin: 4rem 0` // 4 iyi aq degisitirip durma
             },
           },
           {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
               wrapperStyle: `margin-bottom: 1.0725rem`,
+              quality: 100,
             },
           },
+          {
+            resolve: `gatsby-remark-images-medium-zoom`, // Important!
+            options: {
+              margin: 100,
+              background: "#323232",
+            }
+          },
+          `gatsby-remark-line-breaks`,
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
         ],
       },
     },
+    `gatsby-plugin-smoothscroll`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -60,8 +95,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Korhan Eser Portfolio`,
+        short_name: `KSE`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,

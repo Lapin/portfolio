@@ -6,42 +6,45 @@
  */
 
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
+// import { useStaticQuery, graphql } from "gatsby"
+// import Image from "gatsby-image"
+import IntroHero from "./includes/IntroHero"
+
 
 const Bio = () => {
-  const data = useStaticQuery(graphql`
-    query BioQuery {
-      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
-        childImageSharp {
-          fixed(width: 50, height: 50, quality: 95) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      site {
-        siteMetadata {
-          author {
-            name
-            summary
-          }
-          social {
-            twitter
-          }
-        }
-      }
-    }
-  `)
+  // const data = useStaticQuery(graphql`
+  //   query BioQuery {
+  //     avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+  //       childImageSharp {
+  //         fixed(width: 50, height: 50, quality: 95) {
+  //           ...GatsbyImageSharpFixed
+  //         }
+  //       }
+  //     }
+  //     site {
+  //       siteMetadata {
+  //         author {
+  //           name
+  //           summary
+  //         }
+  //         social {
+  //           twitter
+  //         }
+  //       }
+  //     }
+  //   }
+  // `)
 
   // Set these values by editing "siteMetadata" in gatsby-config.js
-  const author = data.site.siteMetadata?.author
-  const social = data.site.siteMetadata?.social
+  // const author = data.site.siteMetadata?.author
+  // const social = data.site.siteMetadata?.social
 
-  const avatar = data?.avatar?.childImageSharp?.fixed
+  // const avatar = data?.avatar?.childImageSharp?.fixed
 
   return (
     <div className="bio">
-      {avatar && (
+      <IntroHero />
+      {/* {avatar && (
         <Image
           fixed={avatar}
           alt={author?.name || ``}
@@ -50,8 +53,10 @@ const Bio = () => {
             borderRadius: `50%`,
           }}
         />
-      )}
-      {author?.name && (
+      )} */}
+      
+      {/* twitter thing */}
+      {/* {author?.name && (
         <p>
           Written by <strong>{author.name}</strong> {author?.summary || null}
           {` `}
@@ -59,7 +64,7 @@ const Bio = () => {
             You should follow them on Twitter
           </a>
         </p>
-      )}
+      )} */}
     </div>
   )
 }
