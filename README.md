@@ -1,5 +1,5 @@
 <p align="center">
-![Logo](content/assets/korhan-icon.png)
+<img src="https://github.com/Lapin/portfolio/blob/master/content/assets/korhan-icon.png?raw=true"/>
 </p>
 <h1 align="center">
 Hello 👋
