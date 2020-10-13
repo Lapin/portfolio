@@ -1,5 +1,5 @@
 <p align="center">
-![Logo](./content/assets/korhan-icon.png)
+![Logo](content/assets/korhan-icon.png)
 </p>
 <h1 align="center">
 Hello 👋
