@@ -22,7 +22,6 @@ module.exports = {
     {
       resolve: `gatsby-source-dribbble`,
       options: {
-        // You can get your Access Token by following this tutorial: http://developer.dribbble.com/v2/oauth/
         access_token: '80e2d05d8ce920e5c6ab743c22499080d51a19c428666c5900dc54baf7d16ad6'
       }
     },
@@ -105,8 +104,5 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }
