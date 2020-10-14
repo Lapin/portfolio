@@ -51,9 +51,9 @@ const Layout = ({ location, title, children, pageContext }) => {
       <main>{children}</main>
       <footer className='text-sm py-12'>
         <div className="text-center">© {new Date().getFullYear()}</div>
-        <div className="text-center"> Built and code by me with <span aria-label="heart" role="img">♥️</span> using Gatsby & React <br/> Check out the source on
+        <div className="text-center"> Built and code by me with <span aria-label="heart" role="img">♥️</span> using Gatsby & React <br/> You can view the source on
         {` `}
-        <a className="font-semibold underline" href="https://www.github.com">Github</a></div>
+        <a className="font-semibold underline" href="https://github.com/Lapin/portfolio" target="blank">Github</a></div>
       </footer>
     </div>
   )

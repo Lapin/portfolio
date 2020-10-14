@@ -12,31 +12,38 @@ subtitle: Mortgage Advisor
 thumbDesc: Mortgage advisor app
 
 quickGlance: 
-    - Initiated a Non Profit Organisation focused on Design Thinking
-    - Faciliated series of meetups and training sessions 
+    - Initiated a Non-Profit Organization focused on Design Thinking
+    - Facilitated series of meetups and training sessions 
     
 roles: 
-    - Workshop Faciliation
+    - Workshop Facilitation
     - Design Thinking
-    - Enviromental Design
+    - Environmental Design
     - Community Management
-    - Human Centred Design
+    - Human Centered Design
     - Urban Design
 gallery: 
     - 022_dtt.jpg
     - 023_dtt.jpg
 ---
 
-# All started with a coffee
+#  Humble Start
 
-DTT is a meetup series where we aimed to bring startups, professionals and students together and share their failures/successes with each other. The first meet up was just for fun and beers but received very positive feedback and nearly all the attendees asked to make another one. We immediately sat down and planned a couple of meet-ups and we've noticed that there were lots of questions flying about how methodologies could be applied to the problems.
+DTT is a meetup series where we brought startups, professionals and students together and share their failures/successes with each other. The first meetup was just for fun and beers but received very positive feedback. Nearly all the attendees asked to make another one. We immediately sat down and planned the next meetup as a series. 
 
 ![](./001_dtt.jpg)
 
 Noticing such need (and having so many people together who are interested in design thinking methodologies, we decided to include a few mockup workshop ideas where people can exercise solving the mock problems. Of course, it wasn't like a contest or anything. We were just enabling a platform where people can exercise with other minds.
 
 ![](./002_dtt.jpg)
-
 ![](./003_dtt.jpg)
+![](./004_dtt.jpg)
+![](./005_dtt.jpg)
+![](./006_dtt.jpg)
 
-After a few more meets, our friend  got in touch with openIDEO and told us that we can transform all of this interest into a meaningful and beneficial output for everyone. Following that we've successfully formed the openIDEO's Istanbul chapter.
+After a few more meets, we got in touch with openIDEO and told us that we can transform all of this interest into a meaningful and beneficial output for everyone. Following that we've successfully formed the openIDEO's Istanbul chapter. During 2018 I had to depart away from DTT and it's a community to relocate to London. Now it's lead by volunteering and it's still functioning today and has been working with the Istanbul municipality together.
+
+![](./007_dtt.jpg)
+![](./020_dtt.jpg)
+![](./023_dtt.jpg)
+![](./024_dtt.jpg)

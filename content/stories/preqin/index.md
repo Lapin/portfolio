@@ -13,7 +13,7 @@ thumbDesc: A modular customizable dashboard powered by dynamic complex visualisa
 
 quickGlance: 
     - Created a modular design pattern
-    - Defined various visualiations for raw datas
+    - Defined various visualisations for raw data
 
 roles:
     - UI Design
@@ -45,6 +45,6 @@ I was tasked to work closely with the development and client-consultant team to 
 
 # Charts and charts and more charts
 
-The next part was to fill the framework with the charts. It was tennis between the dev team and analysts as they all relied on live data. As these dashboards could be customised depending if the client requested, I designed the charts where they could be easily stitched to another. In a more technical description; I made them modular so they can be reorganized on depending on the client needs. 
+The next part was to fill the framework with the charts. It was tennis between the dev team and analysts as they all relied on live data. As these dashboards could be customized depending if the client requested, I designed the charts where they could be easily switched to another. In a more technical description; I made them modular so they can be reorganized on depending on the client needs. 
 
 ![](./PQ_06.jpg)
