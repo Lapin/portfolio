@@ -9,10 +9,10 @@ thumbImage: thumb_ttnet.jpg
 hero: hero_ttnet.jpg
 
 subtitle: Tailor-Made Dashboard
-thumbDesc: "Tailor-made dashboard for stakeholders"
+thumbDesc: "Tailor-made dashboard for stakeholders with customizable layouts"
 
 quickGlance: 
-    - Delivered a management dashboard where it could be customised depending on the stakeholder needs. 
+    - Delivered a management dashboard where it could be customized depending on the stakeholder needs. 
     - Facilitated workshops with stakeholders to define their needs
     - Created a design system with stackable components to build custom views
 
@@ -20,9 +20,9 @@ roles:
     - UI Design
     - UX Design
     - Data Analysis
-    - Modudlar Design System
-    - Workshop Faciliation
-    - Stakeholder Inteviews
+    - Modular Design System
+    - Workshop Facilitation
+    - Stakeholder Interviews
     - Design System
 gallery:
     - 002_ttnet.jpg

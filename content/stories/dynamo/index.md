@@ -9,7 +9,7 @@ thumbImage: thumb_dyno.png
 hero: hero_dyno.jpg
 
 subtitle: Mortgage Advisor
-thumbDesc: Mortgage advisor app
+thumbDesc: ReMortgaging application designed to be fun and not overwhelming.
 
 quickGlance: 
     - Designed an MVP for a finance startup focused on Remortgaging

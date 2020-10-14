@@ -9,7 +9,7 @@ thumbImage: 002_dtt.jpg
 hero: 005_dtt.jpg
 
 subtitle: Mortgage Advisor
-thumbDesc: Mortgage advisor app
+thumbDesc: An NGO focused to help professionals, students and startups to adopt design thinking to their lives or work enviroment. 
 
 quickGlance: 
     - Initiated a Non-Profit Organization focused on Design Thinking
