@@ -1,5 +1,5 @@
 import React from "react"
-import Pdf from "../KorhanEser-CV-2020.pdf";
+import Pdf from "../KorhanEser-CV2020.pdf";
 import scrollTo from 'gatsby-plugin-smoothscroll';
 
 const IntroHero = () => {
